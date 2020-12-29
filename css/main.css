@@ -52,6 +52,11 @@ header {
     border: 1px solid black;
     display: inline-block; }
 
+.logo {
+  float: none;
+  width: 100px;
+  height: 100px; }
+
 li a {
   text-decoration: none;
   font-size: 20px;
