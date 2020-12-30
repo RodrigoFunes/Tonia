@@ -63,9 +63,9 @@ div{
 
 /* mi barra de navegacion*/
 
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -92,6 +92,8 @@ header{
     width: 100px;
     height: 100px;
 }
+
+
 li{
     a{
         text-decoration: none;

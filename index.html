@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/icons.css" type="text/css" />
         <link rel="stylesheet" href="css/archivo.css" type="text/css" />
         <link rel="stylesheet" href="fonts/X_BAMBI.TTF" type="tex/css" />
+        
        <!--CDN de Bootstrap del CSS-->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->  
     </head>
@@ -50,12 +51,21 @@
             </nav>
         </header>    
         <main>
-            <div align="center"><img src="./images/telatonia.JPG" alt="telatonia"></div>
+            <div class="bg-success row align-items-center justify-content-center bg-white"><img src="./images/telatonia.JPG" alt="telatonia"></div>
             <!--Seccion Bienvenida-->
         <section>
             <h2>Productos destacados</h2>
-            <img src="./images/almohadonesestilos.JPG" alt="almohadon" width="300" height="400">
-            <img src="./images/fundas.JPG" alt="fundas" width="300" height="400">
+            <div class="container">
+            <div class="row">
+
+
+            <img class="col-lg-6" src="./images/almohadonesestilos.JPG" alt="almohadon">
+            <img class="col-lg-5" src="./images/fundas.JPG" alt="fundas">
+
+          </div>
+        </div>
+
+
         </section>  
         </main> 
         <footer align="center" class="footer_copyright">
