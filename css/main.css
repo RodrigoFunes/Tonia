@@ -20,7 +20,8 @@ ol .lista li {
   color: black;
   list-style-type: decimal;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  background-color: #e7ac68; }
 
 div .footer__social-icons {
   display: flex;
