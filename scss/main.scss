@@ -7,7 +7,9 @@ $colorBorder: black;
 $paragraph: fuente;
 $size: fontsize;
 
-
+.imagen__quienessomos{
+    align-items: center;
+}
 p { 
     color: $colorLetras;
     @if $paragraph==fuente { 
